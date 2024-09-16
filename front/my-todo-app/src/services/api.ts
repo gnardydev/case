@@ -1,9 +1,9 @@
-// Importa o Axios, que é uma biblioteca para fazer requisições HTTP
+
 import axios from 'axios';
 
 // URL API
 const api = axios.create({
-  baseURL: 'https://localhost:7275/api', // Altere para a URL do seu backend
+  baseURL: 'https://localhost:7275/api', 
 });
 
 // LOGIN
